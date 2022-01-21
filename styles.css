@@ -18,15 +18,20 @@ ol {
 .crumb {
   margin-right: 2em;
   display: inline;
+  background-color: rgb(204, 204, 134);
+  border-radius: 4px;
+  text-decoration: none;
 }
 
 a {
-  color: orange;
+  color: rgb(190, 139, 88);
+  font-family: LEMON MILK;
+  text-decoration: none;
 }
 
-a:visited {
-  color: crimson;
-}
+/* a:visited {
+  color: rgb(0, 0, 0);
+} */
 
 input {
   display: block;
