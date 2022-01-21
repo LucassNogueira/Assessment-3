@@ -60,12 +60,23 @@ h2 {
   list-style-position: inside;
 }
 
-/* .buttons {
-  display: block;
-} */
+.buttons {
+  background-color: rgb(204, 204, 134);
+  border: dotted 1px;
+  color: black;
+  font-family: LEMON MILK;
+  font-size: 12px;
+  border-radius: 15px;
+  transition-duration: 0.4s;
+  box-shadow: 3px 3px 10px black;
+}
+
+.buttons:hover {
+  background-color: black;
+  color: white;
+}
 
 #button-div {
   display: inline-block;
   margin-left: 70px;
 }
-
