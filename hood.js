@@ -2,19 +2,20 @@ const eatingBtn = document.querySelector('#eating')
 
 
 const randomPlace = () {
-const num = Math.floor(Math.random()*4)
+    let num = 0
+    num = Math.floor(Math.random() * 4)
     switch(num){
         case 0:
-         return  window.open('https://www.cafesicilia.com/', '_blank');
+         alert('https://www.cafesicilia.com/');
             
         case 1:
-          return  window.open('https://www.raisingcanes.com', "_blank");
+          alert('https://www.raisingcanes.com');
           
         case 2:
-           return window.open('https://www.olivegarden.com/home', "_blank");
+           alert('https://www.olivegarden.com/home');
             
         case 3:
-          return  window.open('https://cicis.com/', "_blank");
+          alert('https://cicis.com/');
             
     }
     
@@ -22,4 +23,4 @@ const num = Math.floor(Math.random()*4)
 
 
 
-eatingBtn.addEventListener('click', randomPlace())
+eatingBtn.addEventListener('click', randomPlace)
