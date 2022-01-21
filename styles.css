@@ -36,10 +36,6 @@ img {
   max-width: 300px;
 }
 
-#int {
-  font-size: small;
-}
-
 h1 {
   font-family: LEMON MILK;
   text-shadow: 5px 4px 4px gray;
@@ -55,9 +51,21 @@ h2 {
   font-family: LEMON MILK;
 }
 
-#list {
+.sub {
   font-family: "Open Sans", sans-serif;
+  font-size: large;
+  font-weight: 300;
   align-content: center;
   text-align: center;
   list-style-position: inside;
 }
+
+/* .buttons {
+  display: block;
+} */
+
+#button-div {
+  display: inline-block;
+  margin-left: 70px;
+}
+
